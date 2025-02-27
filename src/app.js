@@ -2,13 +2,17 @@ const express = require("express");
 
 const app = express();
 
-// Handle /okie route first
-app.use("/okie", (req, res) => {
-  res.send("hello");
+//This will only handle GET call to /user
+app.get("/user", (req, res) => {
+  const user = {
+    firstName: "kunal",
+    lastName: "Thorat",
+  };
+  res.send(user);
 });
 
-// Handle / route
-app.use("/", (req, res) => {
+// This will match all the HTTP method API calls to /test
+app.use("/test", (req, res) => {
   res.send("hello from server");
 });
 
