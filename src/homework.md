@@ -1,0 +1,16 @@
+-create a repo
+- Initialize the repo
+- node_modules,package.json,package-lock.json
+- Install express
+- Create a server
+- Listen to port 1111
+- Write request handlers for /test , /hello
+- Install nodemon and update scripts inside package.json
+- What are dependencies
+- What is the use of "-g" while npm install
+- Diff between Caret and tilde (^ vs ~)
+
+- initialize git
+- .gitignore
+- create a remote repo on github
+- push all code to remote origin
